@@ -1,0 +1,72 @@
+{
+  "pipeline": "fresh ToxLens retraining on exact published test folds",
+  "created_at": "2026-06-12 13:18:23",
+  "benchmark_publication": {
+    "citation": "Huang K, Fu T, Gao W, et al. Therapeutics Data Commons: Machine Learning Datasets and Tasks for Drug Discovery and Development. NeurIPS Datasets and Benchmarks, 2021.",
+    "url": "https://arxiv.org/abs/2102.09548",
+    "protocol_url": "https://tdcommons.ai/benchmark/admet_group/overview/"
+  },
+  "deep_tox_path": "src/deep_tox.py",
+  "deep_tox_sha256": "303e0a40a4df8051787ebadbf610827e711234b0e8004e8f9310dd91fb90ce81",
+  "benchmarks": {
+    "tdc_ames": {
+      "tdc_name": "AMES",
+      "task_name": "AMES",
+      "leaderboard_url": "https://tdcommons.ai/benchmark/admet_group/21ames/",
+      "n_published_development": 5821,
+      "n_published_test": 1457,
+      "published_development_sha256": "b53caafb5f9e43bc52fb7b23adc6667edd3d90ad50401c2aa62dc890ba05fa27",
+      "published_test_sha256": "7d74d1cf0bdb6127ddaae42473d4d47aa0f76e49239158d4827879e6ba48002f",
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "validation_policy": "90%/10% split of published development only; canonical duplicate molecules grouped; published test untouched",
+      "development_test_canonical_overlap": 0
+    },
+    "tdc_herg": {
+      "tdc_name": "hERG",
+      "task_name": "hERG",
+      "leaderboard_url": "https://tdcommons.ai/benchmark/admet_group/20herg/",
+      "n_published_development": 523,
+      "n_published_test": 132,
+      "published_development_sha256": "c4c2deea94ba79e6f57be5711943490bcca4084f68e99bc17bf0b7ef89ce8f7a",
+      "published_test_sha256": "89ca1326062c054123df55dc83e16116cb3f0eaf829dc8d22ec018b0fe796a3d",
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "validation_policy": "90%/10% split of published development only; canonical duplicate molecules grouped; published test untouched",
+      "development_test_canonical_overlap": 6
+    },
+    "tdc_dili": {
+      "tdc_name": "DILI",
+      "task_name": "DILI",
+      "leaderboard_url": "https://tdcommons.ai/benchmark/admet_group/22dili/",
+      "n_published_development": 379,
+      "n_published_test": 96,
+      "published_development_sha256": "ae4dcaebdeedbf915731a7c2684a93945b1162b6d016382e2925b5d7054d6a88",
+      "published_test_sha256": "8a467ecc68200077545c0f85bb883468a7e90a2e77e73f9045ff600739a8991d",
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "validation_policy": "90%/10% split of published development only; canonical duplicate molecules grouped; published test untouched",
+      "development_test_canonical_overlap": 0
+    }
+  },
+  "excluded": {
+    "DeepTox/Tox21 Challenge": "Explicitly excluded at the user's request because that benchmark has already been completed.",
+    "MoleculeNet Tox21 recreation": "Excluded because the original paper reports random Tox21 splits; the previous scaffold split was not an exact paper reproduction.",
+    "TDC LD50_Zhu": "Excluded because it is a regression benchmark and this ToxLens pipeline is classification-only."
+  }
+}
