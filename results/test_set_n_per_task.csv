@@ -1,0 +1,13 @@
+task,n_test,n_pos,n_neg,is_primary,reportable_primary,exclusion_reason
+NR-AR,586,12,574,True,False,min_class=12<15
+NR-AR-LBD,581,8,573,True,False,min_class=8<15
+NR-AhR,608,71,537,True,True,
+NR-Aromatase,528,39,489,True,True,
+NR-ER,515,50,465,True,True,
+NR-ER-LBD,599,20,579,True,True,
+NR-PPAR-gamma,603,31,572,True,True,
+SR-ARE,553,92,461,True,True,
+SR-ATAD5,620,37,583,True,True,
+SR-HSE,608,21,587,True,True,
+SR-MMP,541,58,483,True,True,
+SR-p53,614,40,574,True,True,
