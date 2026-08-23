@@ -10,14 +10,6 @@ result tables used by the manuscript; and environment specifications. Large
 checkpoint files are kept under `release_assets/` for upload as GitHub Release
 or archival-repository assets and are excluded from ordinary Git history.
 
-## Reported in-house result
-
-The five-seed soft-voting ensemble achieved macro MCC 0.44, macro AUROC 0.83,
-and macro AUPRC 0.58 on the fixed leakage-controlled test fold. Per-endpoint
-values, confidence intervals, baseline comparisons, applicability-domain
-statistics, conformal predictions, and interpretation results are available in
-`results/`.
-
 ## Installation
 
 The readable environment specification is `environment.yml`. The accompanying
@@ -113,10 +105,7 @@ included under `results/tox21_challenge/`.
 - `data/curated/`: curated 11-endpoint source table.
 - `data/splits/`: fixed 80:10:10 train, validation, and test assignments.
 - `src/`: model, benchmark, figure, uncertainty, and interpretation programs.
-- `results/`: reported machine-readable result tables.
 - `benchmarks/`: benchmark provenance and published-method comparisons.
-- `figures/manuscript/`: manuscript figure exports and exact embedded media.
-- `manuscript/`: submission-ready manuscript source.
 - `release_assets/`: selected checkpoint binaries and SHA-256 checksums.
 
 ## Citation
