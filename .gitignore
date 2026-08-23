@@ -1,0 +1,40 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.env
+.venv/
+env/
+
+# Local caches and training artefacts
+*.pkl
+*.joblib
+*.ckpt
+*.pt
+*.pth
+release_assets/checkpoints/**/*.npy
+lightning_logs/
+graph_objs/
+artifacts/
+published_benchmark_runs/tdc_raw/
+
+# Editor, Word, and operating-system files
+~$*
+~WRL*.tmp
+*.tmp
+desktop.ini
+NUL
+
+# Local manuscript QA and LaTeX intermediates
+*_QA.pdf
+*_render/
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+
+# Local exploratory/generated assets not used by the release
+Gemini_Generated_*

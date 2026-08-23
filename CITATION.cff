@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use ToxLens, please cite the accompanying manuscript and this software release."
+title: "ToxLens: a reproducible graph-learning framework for leakage-aware, uncertainty-calibrated molecular toxicity prediction"
+type: software
+version: 1.0.0
+date-released: 2026-08-23
+license: MIT
+authors:
+  - family-names: "Strømme"
+    given-names: "Magnus H."
+    orcid: "https://orcid.org/0009-0001-9405-0919"
+  - family-names: "de Sá"
+    given-names: "Alex G. C."
+  - family-names: "Ascher"
+    given-names: "David B."
+keywords:
+  - molecular toxicity
+  - graph neural networks
+  - multi-task learning
+  - conformal prediction
+  - applicability domain
+  - explainable artificial intelligence
