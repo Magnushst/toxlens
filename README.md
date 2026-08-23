@@ -102,8 +102,8 @@ included under `results/tox21_challenge/`.
 
 ## Repository contents
 
-- `data/curated/`: curated 11-endpoint source table.
-- `data/splits/`: fixed 80:10:10 train, validation, and test assignments.
+- `data/`: curated 11-endpoint source table.
+- `data/`: fixed 80:10:10 train, validation, and test assignments.
 - `src/`: model, benchmark, figure, uncertainty, and interpretation programs.
 - `benchmarks/`: benchmark provenance and published-method comparisons.
 - `release_assets/`: selected checkpoint binaries and SHA-256 checksums.
