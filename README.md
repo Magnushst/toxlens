@@ -1,4 +1,6 @@
-<img src="./toxlens-logo.svg" alt="Toxlens Logo" width="300">
+<div align="center">
+  <img src="./toxlens-logo.svg" alt="Toxlens Logo" width="400">
+</div>
 
 # ToxLens
 
