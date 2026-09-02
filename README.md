@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./toxlens-logo.svg" alt="Toxlens Logo" width="400">
+  <img src="./toxlens-logo.svg" alt="Toxlens Logo" width="500">
 </div>
 
 # ToxLens
