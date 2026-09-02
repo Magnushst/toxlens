@@ -1,4 +1,53 @@
-![Uploading toxlens-logo.svg…]()
+<img width="300" height="100" alt="toxlens-logo" src="https://github.com/user-attachments/assets/d1b8ae96-f1d5-4225-818a-cb239991be32" />![U<svg viewBox="0 0 480 160" xmlns="http://www.w3.org/2000/svg" font-family="'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <radialGradient id="glass" cx="38%" cy="34%" r="75%">
+      <stop offset="0%" stop-color="#8FD0E8" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#2E7DA1" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#17324D" stop-opacity="0.04"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ICON -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- lens glass -->
+    <circle cx="80" cy="78" r="42" fill="url(#glass)"/>
+
+    <!-- molecule: aromatic ring as node-graph -->
+    <g stroke="#17324D" fill="none" stroke-width="3.4">
+      <polygon points="80,52 100.8,64 100.8,88 80,100 59.2,88 59.2,64"/>
+      <circle cx="80" cy="76" r="12.5" stroke-width="2.6"/>
+    </g>
+    <g fill="#17324D">
+      <circle cx="100.8" cy="64" r="5"/>
+      <circle cx="100.8" cy="88" r="5"/>
+      <circle cx="80" cy="100" r="5"/>
+      <circle cx="59.2" cy="88" r="5"/>
+      <circle cx="59.2" cy="64" r="5"/>
+    </g>
+    <!-- SHAP-flagged node -->
+    <circle cx="80" cy="52" r="6" fill="#E2564A"/>
+
+    <!-- lens ring + handle -->
+    <circle cx="80" cy="78" r="46" fill="none" stroke="#2E7DA1" stroke-width="7"/>
+    <line x1="111" y1="109" x2="130" y2="128" stroke="#2E7DA1" stroke-width="12"/>
+    <!-- glass highlight -->
+    <path d="M 58 58 A 30 30 0 0 1 74 46" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.55"/>
+  </g>
+
+  <!-- WORDMARK -->
+  <text x="290" y="90" font-size="58" font-weight="700" letter-spacing="-1" text-anchor="middle">
+    <tspan fill="#17324D">Tox</tspan><tspan fill="#2E7DA1">Lens</tspan>
+  </text>
+  <text x="290" y="110" font-size="9" font-weight="600" letter-spacing="0.2" fill="#5B6B7A" text-anchor="middle">
+    UNCERTAINTY-CALIBRATED · INTERPRETABLE · LEAKAGE-AWARE
+  </text>
+  <text x="290" y="126" font-size="11.5" font-weight="500" letter-spacing="1.4" fill="#5B6B7A" text-anchor="middle">
+    MOLECULAR TOXICITY PREDICTION
+  </text>
+</svg>
+ploading toxlens-logo.svg…]()
+
+
 # ToxLens
 
 ToxLens is a leakage-aware, uncertainty-calibrated, multi-task molecular
